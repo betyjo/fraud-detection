@@ -18,4 +18,58 @@ The project includes:
 
 ## Repository Structure
 
-(put structure here)
+fraud-detection/
+
+├── .vscode/
+
+│ └── settings.json
+
+├── .github/
+
+│ └── workflows/
+
+│ └── unittests.yml
+
+├── data/ # Add to .gitignore
+
+│ ├── raw/ # Original datasets
+
+│ └── processed/ # Cleaned and feature-engineered data
+
+├── notebooks/
+
+│ ├── **init**.py
+
+│ ├── eda-fraud-data.ipynb
+
+│ ├── eda-creditcard.ipynb
+
+│ ├── feature-engineering.ipynb
+
+│ ├── modeling.ipynb
+
+│ ├── shap-explainability.ipynb
+
+│ └── README.md
+
+├── src/
+
+│ └── **init**.py
+
+├── tests/
+
+│ └── **init**.py
+
+├── models/ # Saved model artifacts
+
+├── scripts/
+
+│ ├── **init**.py
+
+│ └── README.md
+
+├── requirements.txt
+
+├── README.md
+
+└── .gitignore
