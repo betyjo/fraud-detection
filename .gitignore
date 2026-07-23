@@ -15,3 +15,5 @@ models/
 .DS_Store
 
 .env
+
+.kiro/
